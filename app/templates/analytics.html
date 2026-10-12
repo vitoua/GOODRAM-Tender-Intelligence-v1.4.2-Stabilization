@@ -1,0 +1,1 @@
+{% extends 'base.html' %}{% block content %}<h1>{{t['analytics']}}</h1><div class="kpis"><div><b>{{rows|length}}</b><small>Tenders</small></div><div><b>{{rows|map(attribute='country')|unique|list|length}}</b><small>Countries</small></div><div><b>{{rows|map(attribute='source')|unique|list|length}}</b><small>Sources</small></div></div>{% endblock %}

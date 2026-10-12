@@ -1,0 +1,6 @@
+{
+  "version":"1.4.2",
+  "locked":["ted","prozorro","latvia","ekap"],
+  "policy":"Locked connector modules are regression-tested and must not be edited unless their dedicated tests and manifest hashes are updated.",
+  "beta":["bzp","germany","nen","slovakia","cvpis","ekr","estonia"]
+}

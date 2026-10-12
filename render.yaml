@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: goodram-tender-intelligence-v142
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: APP_LANGUAGE
+        value: pl
+      - key: APIFY_API_TOKEN
+        sync: false
+      - key: AZURE_TRANSLATOR_KEY
+        sync: false
+      - key: AZURE_TRANSLATOR_REGION
+        sync: false
+      - key: LIBRETRANSLATE_URL
+        sync: false
+      - key: LIBRETRANSLATE_API_KEY
+        sync: false

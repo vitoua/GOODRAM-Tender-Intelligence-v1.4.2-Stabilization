@@ -1,0 +1,18 @@
+{
+  "ted": {
+    "file": "app/connectors/ted.py",
+    "sha256": "5853bb603fe7149a258d4b00efc015f392162fc29c8e4a5bcd3a2d30d0af8503"
+  },
+  "prozorro": {
+    "file": "app/connectors/prozorro.py",
+    "sha256": "0cc33ef572d02d4f932db95aaf53e8a558392f8115d5a9d2f7269ddcbad8c441"
+  },
+  "latvia": {
+    "file": "app/connectors/latvia.py",
+    "sha256": "dbf1a0eeeb9d56f0ef548e99fb45be92b93b79f3fa3a9f31157b8bb3dee744dc"
+  },
+  "ekap": {
+    "file": "app/connectors/turkey.py",
+    "sha256": "38ab8aa0fcd764f6212900251427a4a74045f1dd68d5c7741ed6d22ca1c5d40f"
+  }
+}
